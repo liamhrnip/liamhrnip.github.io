@@ -1,2 +1,13 @@
-<h1> AULIA PUTRI MAHARANI </h1>
+<form action="#" id="komentar">
+<input type="text" placeholder="Ketik komentar disini...">
+<input type="submit" value="submit">
+</form>
+
+<div id="textKomentar"></div>
+
+<script type="text/javascript">
+$('#komentar').onSubmit(function(){
+ $('#textKomentar').append('<p>Test</p>');
+});
+</script>
 
