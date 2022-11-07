@@ -1,1 +1,3 @@
-Disini tampilan web
+<?php
+require_once('config.php')
+?>
